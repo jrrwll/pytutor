@@ -47,6 +47,7 @@ print(len(['']), len(['a']), len(['abc']), len(['3.14']), len([3.14]))
 # None 空类型
 print(None, type(None), bool(None))
 
+# 空值作为条件表达式
 if None:
     print('None')
 elif 0:
