@@ -2,7 +2,7 @@
 # coding=utf-8
 
 """
-计算器
+二维列表
 """
 
 s = []
@@ -94,17 +94,27 @@ pyplot.plot(X, Y)
 pyplot.axis('equal')
 pyplot.show()
 
-def fb(n):
-    if n <= 2:
-        return 1
-    a, b = 1, 1
 
-# 最大公约数
-def gcd(a, b):
-    return -1 # 返回一个值
+def twice(n):
+    return n * 2
+
+print(twice(1), twice(3))
 
 
-# 最小公倍数
-def lcm(a, b):
-    return -1
+def multiply(a, b):
+    return a * b
+
+
+print(multiply(3, 7))
+
+
+def nothing(mouse, cat, dog):
+    if mouse and cat and dog:
+        return [1, 2, 3]
+    # else:
+    #     return
+
+
+print(nothing(1, False, None))
+print()
 
